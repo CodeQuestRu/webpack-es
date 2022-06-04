@@ -21,7 +21,7 @@ export const build = resolve(root, './dist');
 export const starter = resolve(root, './_starter');
 
 // Путь до webpack
-export const webpack = resolve(starter, './webpack');
+// export const webpack = resolve(starter, './webpack');
 
 // Лоадеры
-export const loaders = resolve(webpack, './loaders');
+export const loaders = resolve(starter, './loaders');

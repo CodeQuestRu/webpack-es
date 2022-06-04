@@ -100,6 +100,6 @@ export const typescript = {};
 
 // HTML Webpack Plugin
 export const htmlWp = {
-  template: resolve(paths.webpack, './static/template.html'),
+  template: resolve(paths.starter, './static/template.html'),
   title: 'Webpack-starter by CodeQuest'
 };

@@ -1,0 +1,10 @@
+export { default as babelLoader } from './babel';
+export { default as cssLoader } from './css';
+export { default as lessLoader } from './less';
+export { default as sassLoader } from './sass';
+export { default as imageLoader } from './image';
+export { default as svgLoader } from './svg';
+export { default as fontLoader } from './font';
+export { default as tsLoader } from './typescript';
+export { default as csvLoader } from './csv';
+export { default as xmlLoader } from './xml';
